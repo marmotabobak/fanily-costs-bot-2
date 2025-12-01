@@ -46,3 +46,4 @@ ALLOWED_USER_IDS=123456789,987654321
 - Правила форматирования: `.editorconfig`
 - Игнорируемые файлы: `.gitignore`
 Test CI
+New test CI
