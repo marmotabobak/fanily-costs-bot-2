@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  bot:
+    build: .
+    image: family-costs-bot:latest
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - DB_PATH=/data/expenses.db
+      - ALLOWED_USER_IDS=${ALLOWED_USER_IDS}
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
