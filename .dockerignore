@@ -1,0 +1,30 @@
+# Ignore VCS
+.git
+.gitignore
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Venv
+.venv
+venv/
+
+# Local data
+data/
+*.db
+*.sqlite3
+
+# OS / Editor files
+.DS_Store
+.idea/
+.vscode
+
+# Misc
+*.log
